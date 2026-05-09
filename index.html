@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="card">
+    <h1>Discount Calculator</h1>
+    
+    <h3>Amount (₦):</h3>
+    <input type="number" id="priceInput" placeholder="Enter Amount in Naira">
+
+    <h3>Discount (%):</h3>
+    <input type="number" id="percentInput" placeholder="Enter Discount in %">
+
+    <button onclick="calculateDiscount ()">Calculate</button>
+
+    <div class="output">
+        <h4 id="originalAmount"></h4>
+        <h4 id="discountAmount"></h4>
+    </div>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
