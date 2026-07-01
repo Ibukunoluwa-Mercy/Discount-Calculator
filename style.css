@@ -27,7 +27,7 @@ input {
     width: 100%;
     padding: 15px;
     padding-right: 50px;
-    border: 2px solid grey;
+    border: 2px solid #667eea;
     opacity: 0.4;
     border-radius: 12px;
     font-size: 15px;
@@ -51,7 +51,7 @@ h3 {
 }
 
 input::placeholder {
-    color: black;
+    color:  #764ba2;
 }
 
 input:focus {
